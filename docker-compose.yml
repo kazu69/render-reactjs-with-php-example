@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  php:
+    build:
+      context: .
+      dockerfile: php.dockerfile
+    links:
+      - nodejs
+    ports:
+      - '80:80'
+  nodejs:
+    build:
+      context: .
+      dockerfile: nodejs.dockerfile
+    ports:
+      - '3000:3000'
