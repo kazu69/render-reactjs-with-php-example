@@ -1,4 +1,4 @@
-# Server rendering of ReactJS template in php application
+# Server rendering of React.js template in php application
 
 > Execution of javascript in php application. The other is to run the js in nodejs application
 
